@@ -17,3 +17,14 @@ if password_guess != 'streamlit_is_great':
   
 
 penguin_file = st.file_uploader('Upload your own penguin data') 
+
+
+
+penguin_df = pd.read_csv('penguins.csv')
+rf_pickle = open('random_forest_penguin.pickle', 'rb')
+map_pickle = open('output_penguin.pickle', 'rb')
+rfc = pickle.load(rf_pickle)
+unique_penguin_mapping = pickle.load(map_pickle)
+rf_pickle.close()
+map_pickle.close()
+
