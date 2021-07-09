@@ -10,8 +10,6 @@ if password_guess != st.secrets["password"]:
  
 penguin_file = st.file_uploader('Upload your own penguin data')
 
-<<<<<<< HEAD
-=======
 st.write("This app uses 6 inputs to predict the species of penguin using " 
 
          "a model built on the Palmer's Penguin's dataset. Use the form below" 
