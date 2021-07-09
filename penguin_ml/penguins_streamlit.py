@@ -31,5 +31,3 @@ rfc = pickle.load(rf_pickle)
 unique_penguin_mapping = pickle.load(map_pickle)
 rf_pickle.close()
 map_pickle.close()
-
->>>>>>> 28cb14d8043a559bccd0e510ef9f24262e743c9f
