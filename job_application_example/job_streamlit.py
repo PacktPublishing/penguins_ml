@@ -1,5 +1,5 @@
 import streamlit as st
-import st_lottie from streamlit_lottie 
+import streamlit_lottie from st_lottie
 import pandas as pd
 import requests
 
